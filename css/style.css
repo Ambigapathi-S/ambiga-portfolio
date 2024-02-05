@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+html {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: var(--bs-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--bs-primary-text-emphasis);
+}
+
+/* Side Bar */
+
+.left-panel {
+  background-color: var(--bs-primary-text-emphasis);
+  width: 275px;
+  display: flex;
+  justify-content: center;
+}
+
+.right-panel {
+  width: calc(100% - 275px);
+}
+
+.left-panel .nav a.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  gap: 5px;
+}
+
+/* .right-panel .content-div {
+  height: 600px;
+} */
+
+/* Hero Section */
+
+.hero-section {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: url("../images/bg.jpg");
+  /* background: #000000;
+    background: linear-gradient(rgb(4 5 65 / 80%), rgb(11 129 122 / 80%)),
+        url("../images/bg.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+}
+
+.hero-section .text-name {
+  font-weight: 900;
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+.hero-section .text-des {
+  padding: 10px;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+/* About Section */
+
+.about {
+  background: url("../images/blk-bg.jpg");
+  color: #ffffff;
+  padding: 5rem;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about ul {
+  list-style-type: disclosure-closed;
+}
+
+.about ul li {
+  padding: 10px 10px 0 10px;
+}
+
+/* Education Section */
+.education {
+  background: url(../images/bluebg.jpg);
+  color: #ffffff;
+  padding: 5rem;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.education ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.education ul li {
+  display: flex;
+  padding: 10px 0;
+}
+
+.education ul li div {
+  display: inline-block;
+}
+
+.education ul li::before {
+  content: "✺";
+  padding: 5px 10px 0 0;
+}
+
+.education ul li div h1.degree_name {
+  font-size: 23px;
+  letter-spacing: -1px;
+}
+
+.education ul li div .institution_name {
+  font-size: 18px;
+  letter-spacing: -1px;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.education ul li div .place {
+  font-size: 15px;
+  letter-spacing: -1px;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+/* Experience */
+.experience {
+  background: #000000;
+  background: linear-gradient(rgb(15 16 33 / 80%), rgb(4 31 30 / 80%)),
+    url("../images/black-bg.jpg");
+  color: #ffffff;
+  padding: 5rem;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.experience div h1.des_name {
+  font-size: 23px;
+  letter-spacing: -1px;
+}
+
+.experience div .institution_name {
+  font-size: 18px;
+  letter-spacing: -1px;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.experience div .place {
+  font-size: 15px;
+  letter-spacing: -1px;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+/* Skills */
+
+.skills {
+  background: #ffffff;
+  color: #000000;
+  padding: 5rem;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.skills .course_name {
+  font-size: 23px;
+  letter-spacing: -1px;
+}
+
+.skills .description {
+  font-size: 18px;
+  letter-spacing: -1px;
+  color: #292828;
+}
+
+.skills .skillset {
+  box-sizing: border-box;
+}
+.skills .skillset .item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.skills .skillset .item label {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.skills .skillset .item .progress {
+    background: #d0d4d8;
+}
+
+.skills .skillset .item .progress-bar.green {
+    background-color: green;
+}
+
+.skills .skillset .item .progress-bar.orange {
+    background-color: orange;
+}
+
+.skills .skillset .item .progress-bar.red {
+    background-color: red;
+}
