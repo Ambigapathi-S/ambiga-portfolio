@@ -347,6 +347,13 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.projects ul.project-slider li.slick-slide {
+  min-height: 500px;
+}
+.projects ul.project-slider1 li.slick-slide {
+  min-height: 300px;
+}
+
 .projects ul.slick-dots li {
   background: transparent;
   width: auto;
