@@ -1,0 +1,144 @@
+@media (max-width: 991px) {
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+  }
+
+  .reveal,
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-left,
+  .reveal-left.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+}
+
+@media (max-width: 768px) {
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .reveal,
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-left,
+  .reveal-left.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .left-panel {
+    width: 100%;
+    position: relative;
+    height: 75px;
+    overflow-x: auto;
+  }
+
+  .left-panel .navbar {
+    width: 100%;
+    display: block !important;
+    height: 100px !important;
+    position: fixed !important;
+    z-index: 1;
+    background: var(--bs-primary-text-emphasis);
+  }
+
+  .left-panel .navbar .nav {
+    gap: 0px !important;
+  }
+
+  .left-panel .nav a.nav-link {
+    font-size: 11px;
+    padding: 5px;
+  }
+
+  .left-panel .nav a.nav-link img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .right-panel {
+    width: 100%;
+  }
+
+  .hero-section {
+    height: 200px;
+    padding: 1rem;
+  }
+
+  .hero-section .text-name {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero-section .text-des {
+    font-size: 20px;
+    opacity: 0.8;
+    text-align: center;
+  }
+
+  .about,
+  .education,
+  .experience,
+  .skills,
+  .projects,
+  .contact {
+    padding: 3rem;
+  }
+
+  .about .fs-3.fw-medium {
+    font-size: 19px !important;
+    line-height: 28px;
+  }
+  .education ul {
+    margin-top: 1rem !important;
+  }
+  .education ul li div h1.degree_name,
+  .experience div h1.des_name,
+  .skills .course_name {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .education ul li div .institution_name,
+  .experience div .institution_name,
+  .skills .description {
+    font-size: 15px;
+  }
+
+  .education ul li div .place,
+  .experience div .place {
+    font-size: 13px;
+  }
+
+  .experience .mt-5.mb-5,
+  .skills .mt-5.mb-5 {
+    margin: 10px 0 !important;
+  }
+
+  .contact ul {
+    flex-direction: column;
+  }
+
+  .contact ul li {
+    width: 100%;
+  }
+  .contact ul li span:nth-child(even), .contact ul li span:nth-child(even),
+  .contact ul li span:nth-child(even) a, .contact ul li span:nth-child(even) a {
+    line-height: 25px;
+  }
+}

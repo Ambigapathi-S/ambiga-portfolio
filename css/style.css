@@ -30,16 +30,16 @@ body {
   opacity: 0;
   transition: 1s all ease;
 }
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 
 .reveal-left {
   position: relative;
   transform: translateX(-150px);
   opacity: 0;
   transition: 1s all ease;
-}
-.reveal.active{
-  transform: translateY(0);
-  opacity: 1;
 }
 
 .reveal-left.active {
@@ -408,8 +408,7 @@ body {
 }
 
 .contact ul li span:nth-child(even) a {
-  text-wrap: wrap;
-  white-space: break-space;
+  word-break: break-word;
   font-size: 18px;
   color: var(--bs-primary-text-emphasis);
   text-decoration: none;
