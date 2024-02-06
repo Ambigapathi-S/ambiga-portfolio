@@ -1,125 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ambiga's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
 
-  <body>
-    <div class="container-fluid h-100 p-0">
-      <div class="row h-100">
-        <div
-          class="col-lg-2 col-xl-2 col-xxl-2 col-md-2 col-sm-2 col-xs-3 left-panel p-0"
-        >
-          <nav
-            id="navbar-example3"
-            class="navbar flex-column align-items-stretch p-3 position-fixed"
-          >
-            <nav class="nav nav-pills flex-column text-center gap-3">
-              <a class="nav-link" href="#about"
-                ><img src="./images/svg/user-svgrepo-com.svg" />About</a
-              >
-              <a class="nav-link" href="#education"
-                ><img
-                  src="./images/svg/education-svgrepo-com.svg"
-                />Education</a
-              >
-              <a class="nav-link" href="#experience"
-                ><img
-                  src="./images/svg/user-success-svgrepo-com.svg"
-                />Experience</a
-              >
-              <a class="nav-link" href="#skills"
-                ><img src="./images/svg/skills-svgrepo-com.svg" />Skills</a
-              >
-              <a class="nav-link" href="#projects"
-                ><img src="./images/svg/projects-svgrepo-com.svg" /> Projects</a
-              >
-              <a class="nav-link" href="#certificates"
-                ><img
-                  src="./images/svg/certificate-award-achievement-business-honor-bank-security-svgrepo-com.svg"
-                />Awards & Certificates</a
-              >
-              <a class="nav-link" href="#contact"
-                ><img
-                  src="./images/svg/contact-phone-talking-svgrepo-com.svg"
-                />
-                Contact</a
-              >
-            </nav>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ambiga's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+</head>
+
+<body>
+  <div class="container-fluid h-100 p-0">
+    <div class="row h-100">
+      <div class="col-lg-2 col-xl-2 col-xxl-2 col-md-2 col-sm-2 col-xs-3 left-panel p-0">
+        <nav id="navbar-example3" class="navbar flex-column align-items-stretch p-3 position-fixed h-100">
+          <nav class="nav nav-pills flex-column text-center gap-3 h-100 align-items-center justify-content-evenly">
+            <a class="nav-link" href="#about"><img src="./images/svg/user-svgrepo-com.svg" />About</a>
+            <a class="nav-link" href="#education"><img src="./images/svg/education-svgrepo-com.svg" />Education</a>
+            <a class="nav-link" href="#experience"><img src="./images/svg/user-success-svgrepo-com.svg" />Experience</a>
+            <a class="nav-link" href="#skills"><img src="./images/svg/skills-svgrepo-com.svg" />Skills</a>
+            <a class="nav-link" href="#projects"><img src="./images/svg/projects-svgrepo-com.svg" /> Projects</a>
+            <a class="nav-link" href="#contact"><img src="./images/svg/contact-phone-talking-svgrepo-com.svg" />
+              Contact</a>
           </nav>
-        </div>
-        <div
-          class="col-lg-10 col-xl-10 col-xxl-10 col-md-10 col-sm-10 col-xs-9 right-panel p-0"
-        >
-          <div class="hero-section">
+        </nav>
+      </div>
+      <div class="col-lg-10 col-xl-10 col-xxl-10 col-md-10 col-sm-10 col-xs-9 right-panel p-0">
+        <div class="hero-section">
+          <div class="reveal-left">
             <h1 class="text-name">Ambigapathi S</h1>
             <p class="text-des">Full Stack Developer</p>
           </div>
-          <div
-            data-bs-spy="scroll"
-            data-bs-target="#navbar-example3"
-            data-bs-offset="0"
-            tabindex="0"
-          >
-            <div id="about" class="about content-div">
+        </div>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+          <div id="about" class="about content-div">
+            <div class="reveal">
               <h1 class="display-5 fw-bold mb-3">About</h1>
               <h1 class="fs-3 fw-medium">
                 Passionate Pixel Weaver & Backend Architect:
               </h1>
               <p class="pt-3">
-                I'm not your average developer. I bring to the table a unique
-                blend of front-end design sensibilities and back-end engineering
-                prowess. I speak the language of both pixels and databases,
-                crafting engaging web experiences that are not only visually
-                stunning but also functionally rock-solid.
+                I'm not your average developer. I bring to the table a unique blend of front-end design sensibilities
+                and
+                back-end engineering prowess. I speak the language of both pixels and databases, crafting engaging web
+                experiences that are not only visually stunning but also functionally rock-solid.
               </p>
               <p class="pt-3">
-                With 3.5 years of experience building dynamic web applications
-                for startups, I've honed my skills in the trenches. I'm a master
-                Web Development & Beginner for Full Stack Development, but I'm
-                always eager to learn and adapt to new technologies.
+                With 3.5 years of experience building dynamic web applications for startups, I've honed my skills in the
+                trenches. I'm a master Web Development & Beginner for Full Stack Development, but I'm always eager to
+                learn and adapt to new technologies.
               </p>
               <ul>
                 <li>
-                  Pixel-perfect UIs: I bring your vision to life with clean,
-                  user-friendly designs that convert.
+                  Pixel-perfect UIs: I bring your vision to life with clean, user-friendly designs that convert.
                 </li>
                 <li>
-                  Rock-solid backends: My applications are secure, scalable, and
-                  can handle anything you throw at them.
+                  Rock-solid backends: My applications are secure, scalable, and can handle anything you throw at them.
                 </li>
                 <li>
-                  Collaborative spirit: I work seamlessly with designers,
-                  product managers, and other developers to achieve common
-                  goals.
+                  Collaborative spirit: I work seamlessly with designers, product managers, and other developers to
+                  achieve common goals.
                 </li>
               </ul>
             </div>
-            <div id="education" class="education content-div">
+          </div>
+          <div id="education" class="education content-div">
+            <div class="reveal">
               <h1 class="display-5 fw-bold mb-3">Education</h1>
               <ul class="mt-5">
                 <li>
                   <div>
                     <h1 class="degree_name">
-                      BCA - Bachelor of Computer Applications with
-                      <strong>8.3 CGPA - 2020,</strong>
+                      BCA - Bachelor of Computer Applications with <strong>8.3 CGPA - 2020,</strong>
                     </h1>
                     <h4 class="institution_name">
                       Manonmainam Sundaranar University,
@@ -147,7 +112,9 @@
                 </li>
               </ul>
             </div>
-            <div id="experience" class="experience content-div">
+          </div>
+          <div id="experience" class="experience content-div">
+            <div class="reveal">
               <h1 class="display-5 fw-bold mb-3">Experience</h1>
               <div class="mt-5 mb-5">
                 <h1 class="des_name">
@@ -159,7 +126,9 @@
                 <p class="place">Tamilnadu.</p>
               </div>
             </div>
-            <div id="skills" class="skills content-div">
+          </div>
+          <div id="skills" class="skills content-div">
+            <div class="reveal">
               <h1 class="display-5 fw-bold mb-3">Skills</h1>
               <div class="mt-5 mb-5">
                 <h1 class="course_name">
@@ -181,204 +150,406 @@
                   understanding of both front-end and back-end development.
                 </p>
                 <div class="row skillset">
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>JAVA</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated green"
-                        role="progressbar"
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 75%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>MYSQL</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated green"
-                        role="progressbar"
-                        aria-valuenow="70"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 70%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>MONGODB</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated orange"
-                        role="progressbar"
-                        aria-valuenow="65"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 65%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>HTML</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated green"
-                        role="progressbar"
-                        aria-valuenow="95"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 95%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>CSS (Tailwind, SCSS)</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated green"
-                        role="progressbar"
-                        aria-valuenow="95"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 95%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>BOOTSTRAP (Material UI etc.,)</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated green"
-                        role="progressbar"
-                        aria-valuenow="95"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 95%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>JAVASCRIPT (Jquery)</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated green"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>REACT.JS</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated green"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 80%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>ANGULAR.JS</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated green"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 80%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>MERN STACK</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated orange"
-                        role="progressbar"
-                        aria-valuenow="60"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 60%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>MEAN STACK</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated red"
-                        role="progressbar"
-                        aria-valuenow="50"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 50%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
                     </div>
                   </div>
-                  <div
-                    class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item"
-                  >
+                  <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
                     <label>WORDPRESS (Elementor, Divi Editor)</label>
                     <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-striped progress-bar-animated green"
-                        role="progressbar"
-                        aria-valuenow="100"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 100%"
-                      ></div>
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div id="projects" class="content-div">
-              <h4>Projects</h4>
-              <p></p>
+          </div>
+          <div id="projects" class="projects content-div">
+            <h1 class="display-5 fw-bold mb-3">Projects</h1>
+            <div class="reveal">
+              <h2 class="company_name">
+                Stutzen Corporate private limited, Sivakasi - July 2020 to
+                September 2023
+              </h2>
+              <ul class="project-slider">
+                <li>
+                  <div>
+                    <p class="project_count">Project #1</p>
+                    <h1 class="project_title">
+                      Project Title : i.am.reatiler - ecommerce website
+                    </h1>
+                    <h4 class="project_role">
+                      Role : UI Developer & Project Owner
+                    </h4>
+                    <p class="project_desc">
+                      An online ecommerce application (Single application with
+                      multiple themes) management, taken ownership of the
+                      projects. Developed new themes along with team members.
+                    </p>
+                    <h4 class="project_resp">Responsibilities:</h4>
+                    <ul class="project_res_item">
+                      <li>
+                        Involved in Requirements analysis, design, and
+                        development and testing.
+                      </li>
+                      <li>
+                        Coding of all major requirements in the modules of which
+                        I was having ownership.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p class="project_count">Project #2</p>
+                    <h1 class="project_title">
+                      Project Title : Education Management System, Malawi
+                      Country
+                    </h1>
+                    <h4 class="project_role">Role : UI Developer</h4>
+                    <h4 class="project_resp">Responsibilities:</h4>
+                    <ul class="project_res_item">
+                      <li>
+                        Involved in Requirements analysis, design, and
+                        development and testing.
+                      </li>
+                      <li>
+                        Involving in impact analysis and discussions to polish
+                        requirements by pointing outeach and every possible
+                        impact of a new feature.
+                      </li>
+                      <li>
+                        Adhering to design guidelines and visual design
+                        approved.
+                      </li>
+                      <li>
+                        Coding of all major requirements in the modules of which
+                        I was having ownership.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p class="project_count">Project #3</p>
+                    <h1 class="project_title">
+                      Project Title : : Oil palm Management System -Malawi
+                      Country.
+                    </h1>
+                    <h4 class="project_role">
+                      Role : Frontend Developer & Project Owner
+                    </h4>
+                    <p class="project_desc">
+                      Application that tracks, process the responses of the oil
+                      farms budget, work flow based on financial year and with
+                      many master screens. Reports Management, Charts
+                      Management, Multi user access with restrictions.
+                      Application developed with both mobile and desktop
+                      responsive.
+                    </p>
+                    <h4 class="project_resp">Responsibilities:</h4>
+                    <ul class="project_res_item">
+                      <li>
+                        Worked on the UI Design, Interactive development and
+                        performed the Code reviews for team members.
+                      </li>
+                      <li>
+                        Worked on developing the complex UI using JavaScript and
+                        jQuery.
+                      </li>
+                      <li>Have resolved few production level bugs</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p class="project_count">Project #4</p>
+                    <h1 class="project_title">
+                      Project Title : Chit Management.
+                    </h1>
+                    <h4 class="project_role">Role : AngularJS Developer</h4>
+                    <p class="project_desc">
+                      Application that tracks, process the responses of the chit
+                      management, auction reports and management, abstract based
+                      on academic years, Multi user access with restrictions,
+                      reports for better understanding. Desktop application
+                    </p>
+                    <h4 class="project_resp">Responsibilities:</h4>
+                    <ul class="project_res_item">
+                      <li>
+                        Worked on the UI Design, API integration, Interactive
+                        developement and performed the Code reviewsfor team
+                        members.
+                      </li>
+                      <li>
+                        Worked on developing the complex UI using AngularJS, AG
+                        Grid.
+                      </li>
+                      <li>Have resolved many production level bugs.</li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p class="project_count">Project #5</p>
+                    <h1 class="project_title">
+                      Project Title : : E-Service Public Portal
+                    </h1>
+                    <h4 class="project_role">
+                      Role : ReactJS Developer/ Lead.
+                    </h4>
+                    <p class="project_desc">
+                      Website that is used by Malawi Country peoples. This
+                      website contains all of their services and its types with
+                      login access. Desktop and Mobile Responsive. Version 1
+                      completed (Project work Going on). Owner of this project
+                      and Scratch Developer.
+                    </p>
+                    <h4 class="project_resp">Responsibilities:</h4>
+                    <ul class="project_res_item">
+                      <li>
+                        Worked on the UI Design, API integration, Interactive
+                        development and performed the Code reviews for team
+                        members.
+                      </li>
+                      <li>
+                        Used Material UI and some other third-party libraries
+                        for integration.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
             </div>
-            <div id="certificates" class="content-div">
-              <h4>Awards & Certificates</h4>
-              <p></p>
+            <div class="reveal">
+              <h2 class="company_name mt-5">
+                Full Stack Projects (MERN & Java) - September 2023 - Present
+              </h2>
+              <ul class="project-slider1">
+                <li>
+                  <div>
+                    <p class="project_count">Project #1</p>
+                    <h1 class="project_title">
+                      Project Title : Bus Ticket Reservation (Mini Project)
+                    </h1>
+                    <h4 class="project_role">Role : JAVA Developer</h4>
+                    <p class="project_desc">
+                      Created Bus Reservation System using Java. Ticket
+                      availability checking, ticket booking and ticket
+                      cancellation are coded.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p class="project_count">Project #2</p>
+                    <h1 class="project_title">
+                      Project Title : Employee Management & Student Management
+                      (Mini Project)
+                    </h1>
+                    <h4 class="project_role">Role : JAVA Developer</h4>
+                    <p class="project_desc">
+                      Student/Employee Add, Details update, search operation,
+                      retrieve all data. Delete a student/employee.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p class="project_count">Project #3</p>
+                    <h1 class="project_title">
+                      Project Title : Live News Website
+                    </h1>
+                    <h4 class="project_role">Role : MERN Stack Developer</h4>
+                    <p class="project_desc">
+                      Application that displays latest news with different
+                      categories.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p class="project_count">Project #4</p>
+                    <h1 class="project_title">Project Title : CRUD App</h1>
+                    <h4 class="project_role">Role : MERN Stack Developer</h4>
+                    <p class="project_desc">
+                      Application that has to create book and update book
+                      details. Read all books from database and can delete the
+                      records.
+                    </p>
+                  </div>
+                </li>
+              </ul>
             </div>
-            <div id="contact" class="content-div">
-              <h4>Contact</h4>
-              <p></p>
+          </div>
+
+          <div id="contact" class="contact content-div">
+            <div class="reveal">
+              <h1 class="display-5 fw-bold mb-3">Contact</h1>
+              <ul>
+                <li>
+                  <span>Mail</span><span><a href="mailto:ambiga.bca2020@gmail.com">ambiga.bca2020@gmail.com</a></span>
+                </li>
+                <li>
+                  <span>LinkedIn URL</span><span><a
+                      href="https://www.linkedin.com/in/ambigapathi-s/">https://www.linkedin.com/in/ambigapathi-s/</a>
+                  </span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+  <script>
+    $(document).ready(function () {
+      $(".project-slider").slick({
+        autoWidth: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 400,
+            settings: {
+              arrows: false,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+      $(".project-slider1").slick({
+        autoWidth: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 400,
+            settings: {
+              arrows: false,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+
+      var reveals_left = document.querySelectorAll(".reveal-left");
+      reveals_left[0].classList.add("active");
+    });
+  </script>
+  <script type="text/javascript">
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");          
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+
+    window.addEventListener("scroll", reveal);
+  </script>
+</body>
+
 </html>
